@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/home_pet"
+            android:icon="@drawable/ic_vt_home_page"
+            android:title="Home" />
+        <item
+            android:id="@+id/news_pet"
+            android:icon="@drawable/ic_vt_news"
+            android:title="News Pet" />
+        <item android:title="Service Pet">
+                <menu>
+                        <item
+                            android:id="@+id/hospital_pet"
+                            android:icon="@drawable/ic_vt_hospital"
+                            android:title="Veterinary hospital" />
+                        <item
+                            android:id="@+id/shop_pet"
+                            android:icon="@drawable/ic_vt_store"
+                            android:title="Shop Pet" />
+                </menu>
+        </item>
+        <item
+            android:id="@+id/setup"
+            android:icon="@drawable/ic_vt_settings"
+            android:title="Settings" />
+</menu>
